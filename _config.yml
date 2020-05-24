@@ -10,7 +10,7 @@ title:            Nishant Bansal
 tagline:          'My dot on the web'
 description:      ''
 url:              https://nishantbansal.in
-baseurl:          /
+baseurl:          ""
 
 paginate:         5
 
