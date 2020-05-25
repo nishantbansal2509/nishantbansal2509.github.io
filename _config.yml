@@ -9,8 +9,8 @@ permalink:        pretty
 title:            Nishant Bansal
 tagline:          'My dot on the web'
 description:      ''
-url:              https://nishantbansal.in/
-baseurl:          ""
+url:              https://nishantbansal.in
+baseurl:          /
 
 paginate:         5
 
