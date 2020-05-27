@@ -3,9 +3,9 @@ layout: post
 title: Docker Commands
 ---
 
-The container world is changing rapidly. Its irksome to lookup documentation every time I need to use a command. This is a reference for me to take a quick glance whenever my memory acts up.
+The container world is changing rapidly. Its irksome to lookup documentation every time I need to use a command. This is a reference for me to take a quick glance at the most commonly used docker commands.
 
-The `docker` commands are hierarchial. `docker` is the root of the hierarchy. These commands are classified based on their usage into sub commands. For instance, the `image` command is `docker`'s child. These child commands are invoked by appending them after their parent. The `image` command will be executed like `docker image` followed by `image`'s sub command.
+The `docker` commands are hierarchial. `docker` is the root of the hierarchy. These commands are classified based on their usage into sub commands. Docker calls `docker`'s child commands as __management__ commands. For instance, the `image` command is `docker`'s child and a management command. These management commands are invoked by appending them after `docker`. The `image` command will be executed like `docker image` followed by `image`'s sub command.
 
 After the command hierarchy, flags and parameters are passed just like any other command.
 
@@ -39,4 +39,4 @@ The `docker info` command gives a more detailed view of configuration of docker 
 
 `docker container inspect <id/name>` command low level information about the particular container.
 
-`docker container stats` command list the container(s) resource usage statistics.
+`docker container stats` command list the container(s) resource usage statistics. Optionally a container id or name can be supplied to monitor that container's resource usage.
