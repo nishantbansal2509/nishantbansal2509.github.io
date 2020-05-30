@@ -11,6 +11,7 @@ tagline:          'My dot on the web'
 description:      ''
 url:              https://nishantbansal.in
 baseurl:          /
+google_analytics: UA-167514050-1
 
 paginate:         5
 
