@@ -54,7 +54,7 @@ The `docker info` command gives a more detailed view of configuration of docker 
 
 `docker network inspect [ID/NAME] --format [GOTEMPLATE]` command displays detailed information about the network in a json object. This command also supports a format option where a go template can be supplied to parse the json object.
 
-1. The json object contains the list of containers attached to that network. The corresponding template option is `--format '{{ .Containers }}'`.
+1. The json object contains the list of containers attached to that network. The corresponding template option is `--format '{{ "{{ .Containers " }}}}'`.
 
 `docker network create` command cerates a new virtual network. The default driver used is bridge. The IP range is incremented as more virtual networks are added. A container can be added to a subnet while creating it and specifying the `--network` option.
 
